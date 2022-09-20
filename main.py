@@ -27,7 +27,7 @@ def move():
 	elif x == 3:
 		l.config(image=img3)
 	x = x+1
-	root.after(2000, move)
+	root.after(5000, move)
 
 move()
 
